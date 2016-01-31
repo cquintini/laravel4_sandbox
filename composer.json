@@ -4,8 +4,15 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"conarwelsh/mustache-l4": "dev-master",
+        "way/generators": "2.5",
+        "twitter/bootstrap": "dev-master"
 	},
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+    "mockery/mockery": "0.7.*"
+  },	
 	"autoload": {
 		"classmap": [
 			"app/commands",
@@ -32,5 +39,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	 "minimum-stability" : "dev"
 }
